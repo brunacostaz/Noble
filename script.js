@@ -15,7 +15,6 @@ function notificacaoProdutos(carrinho) {
         return;
     }
     notificacao.style.display = 'none';
-    exibirCarrinho()
 }
 
 // Função para adicionar um produto ao carrinho
