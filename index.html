@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noble</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon-Noble.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img id="logo" src="img/Noble.png" alt="logo da Noble">
+            <input type="text" placeholder="Busque os produtos">
+            <div id="icones">
+                <i class="bi bi-person"></i>
+                <i class="bi bi-cart3" id="btnCarrinho">
+                    <div id="notificacao"></div>
+                </i>
+                <i class="bi bi-suit-heart"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="carrinho">
+            <ul id="lista-produtos"></ul>
+        </section>
+        
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <article>
+                <div>
+                    <img src="img/camiseta_marrom.svg" alt="Mulher com uma camiseta marrom">
+                    <p>Camiseta marrom</p>
+                    <p>Valor: R$29.99</p>
+                    <p>Quantidade: 1</p>
+                    <button onclick="adicionarProduto(1, 'Camiseta marrom', 29.99, 1, 'img/camiseta_marrom.svg')">Adicionar ao Carrinho</button>
+                </div>
+                <div>
+                    <img src="img/saia.svg" alt="Mulher com saia preta">
+                    <p>Saia midi preta</p>
+                    <p>Valor: R$99.90</p>
+                    <p>Quantidade: 1</p>
+                    <button onclick="adicionarProduto(2, 'Saia midi preta', 99.90, 1, 'img/saia.svg')">Adicionar ao Carrinho</button>
+                </div>
+                <div>
+                    <img src="img/bone_azul.svg" alt="mulher com boné azul">
+                    <p>Boné azul</p>
+                    <p>Valor: R$149.90</p>
+                    <p>Quantidade: 1</p>
+                    <button onclick="adicionarProduto(3, 'Boné azul', 149.90, 1, 'img/bone_azul.svg')">Adicionar ao Carrinho</button>
+                </div>
+                <div>
+                    <img src="img/legging.svg" alt="mulher com um conjunto de academia (top e calça)">
+                    <p>Conjunto de academia preto</p>
+                    <p>Valor: R$120.90</p>
+                    <p>Quantidade: 1</p>
+                    <button onclick="adicionarProduto(4, 'Conjunto de academia preto', 120.90, 1, 'img/legging.svg')">Adicionar ao Carrinho</button>
+                </div>
+            </article>
+        </section>
+
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

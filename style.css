@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kaisei HarunoUmi", serif;
+}
+
+/* menu */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5em;
+    background-color: hsla(347, 100%, 78%, 0.164);
+    
+}
+
+#logo {
+    width: 150px;
+}
+
+nav input[type="text"] {
+    width: 60%;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #ff8fa781;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+nav input[type="text"]:focus {
+    border: 1px solid #ff8fa7;
+}
+
+#icones {
+    min-width: 150px;
+    display: flex;
+    gap: 1.5em;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 5em;
+}
+
+#btnCarrinho {
+    width: 30px;
+    position: relative;
+}
+
+#notificacao {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffc7;
+    padding: 6px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    color: #dd5875;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px #dd58755d;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+    font-size: 0.8em;
+}
+
+.bi {
+    font-size: 25px;
+    color: #dd5875;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.bi:hover {
+    transform: scale(1.2);
+}
+
+/* main */
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin: 1em 2em 3em;
+}
+
+h2 {
+    color: #dd5875;
+    text-align: center;
+}
+
+/* carrinho de compras */
+
+ul {
+    display: none;
+    flex-direction: column;
+    gap: 1em;
+    max-height: 460px;
+    background-color: #f8f8f88e;
+    overflow: scroll;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #f0618071;
+}
+
+#fechar {
+    margin: 0;
+}
+
+li {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul img {
+    cursor: pointer;
+}
+
+/* produtos */
+
+#produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin: 0 4em;
+}
+
+#produtos article {
+    display: flex;
+    gap: 2em;
+}
+
+#produtos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    padding: 1em;
+    background-color: #ff8fa717;
+    text-align: center;
+}
+
+#produtos div p {
+    font-size: 1em;
+}
+
+div img {
+    width: 200px;
+}
+
+div button {
+    background-color: #ff8fa7;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: #000000;
+    font-family: "Kaisei HarunoUmi", serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+div button:hover {
+    background-color: #f06180;
+}
+
+@media (max-width: 870px) {
+    nav input[type="text"] {
+        display: none;
+    }
+}
