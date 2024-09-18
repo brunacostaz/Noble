@@ -53,14 +53,14 @@ nav input[type="text"]:focus {
     display: none;
     justify-content: center;
     align-items: center;
-    background-color: #ffffffc7;
+    /* background-color: #ffffffc7; */
     padding: 6px;
     width: 5px;
     height: 5px;
     border-radius: 50%;
     color: #dd5875;
     font-weight: bold;
-    box-shadow: 1px 1px 2px #dd58755d;
+    /* box-shadow: 1px 1px 2px #dd58755d; */
     position: absolute;
     top: 0;
     right: 0;
