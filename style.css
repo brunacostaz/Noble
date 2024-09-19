@@ -87,6 +87,7 @@ main {
     justify-content: center;
     flex-direction: row-reverse;
     margin: 1em 2em 3em;
+    position: relative;
 }
 
 h2 {
@@ -98,10 +99,14 @@ h2 {
 
 ul {
     display: none;
+    position: absolute;
+    right: 0;
+    min-width: 371px;
+    box-sizing: border-box;
     flex-direction: column;
     gap: 1em;
     max-height: 460px;
-    background-color: #f8f8f88e;
+    background-color: #fcfcfc;
     overflow: scroll;
     padding: 10px;
     border-radius: 10px;
