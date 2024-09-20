@@ -4,6 +4,8 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: "Kaisei HarunoUmi", serif;
+    width: 100vw;
+    height: 100vh;
 }
 
 /* menu */
@@ -31,7 +33,7 @@ nav input[type="text"] {
 }
 
 nav input[type="text"]:focus {
-    border: 1px solid #ff8fa7;
+    outline: 1px solid #da5f7a;
 }
 
 #icones {
@@ -41,7 +43,6 @@ nav input[type="text"]:focus {
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    width: 5em;
 }
 
 #btnCarrinho {
@@ -85,7 +86,6 @@ nav input[type="text"]:focus {
 main {
     display: flex;
     justify-content: center;
-    flex-direction: row-reverse;
     margin: 1em 2em 3em;
     position: relative;
 }
@@ -137,6 +137,7 @@ ul img {
     justify-content: center;
     gap: 1em;
     margin: 0 4em;
+    width: 100%;
 }
 
 #produtos article {
@@ -179,8 +180,50 @@ div button:hover {
     background-color: #f06180;
 }
 
-@media (max-width: 870px) {
+@media (max-width: 1062px) {
+    nav {
+        padding: 1em 1em;
+        gap: 7em;
+        justify-content: space-around;
+    }
+
+    #logo {
+        width: 100px;
+    }
+
+    #icones {
+        min-width: 80px;
+        justify-content: space-around;
+    }
+
+    .bi {
+        font-size: 20px;
+    }
+
     nav input[type="text"] {
         display: none;
+    }
+
+    ul {
+        right: 0;
+        min-width: 5em;
+        max-width: 15em;
+        max-height: 250px;
+    }
+
+    ul li {
+        font-size: 0.8em;
+    }
+    
+    #produtos article {
+        display: flex;
+        width: 90%;
+        overflow-x: scroll;
+    }
+    
+    #produtos div {
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
     }
 }
