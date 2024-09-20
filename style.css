@@ -215,6 +215,10 @@ div button:hover {
         font-size: 0.8em;
     }
     
+    #produtos {
+        margin: 0 1em;
+    }
+
     #produtos article {
         display: flex;
         width: 90%;
