@@ -28,7 +28,7 @@ Além disso, pretendo utilizar o Noble como meios de teste e consolidação dos 
 
   Como falei anteriormente, o Noble é um projeto em que eu pretendo estar aprimorando conforme for aprendendo novas tecnologias:
 
-  - Quero implemnetar uma forma melhor de adicionar novas quantidades de produtos, através de um select (ou outro input que eu achar melhor)
+  - Quero implementar uma forma melhor de adicionar novas quantidades de produtos, através de um select (ou outro input que eu achar melhor)
   - Vou migrar esse projeto para React e consumir dados de uma API, para preencher os produtos de maneira eficiente
   - Vou implementar SAAS e. talvez, Bootstrap para a estilização do Noble
   - Futuramente quero melhorar a responsividade do projeto, onde pretendo torná-lo Mobile First
