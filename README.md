@@ -24,7 +24,7 @@ Além disso, pretendo utilizar o Noble como meios de teste e consolidação dos 
 - `JavaScript Vanilla`
 - `LocalStorage`
 
-  ## 🚀 Próximos passos
+## 🚀 Próximos passos
 
   Como falei anteriormente, o Noble é um projeto em que eu pretendo estar aprimorando conforme for aprendendo novas tecnologias:
 
